@@ -33,14 +33,14 @@ const providerOptions = {
       appName: "Miner Plus",
       infuraId: "64d1bed94f1d40908f08965a0400ac56",
       rpc: "",
-      chainId: 1,
+      chainId: 4,
       appLogoUrl: null,
       darkMode: true
     }
   },
 };
 const web3Modal = new Web3Modal({
-  network: "Polygon",
+  network: "polygon",
   theme: "dark",
   cacheProvider: true,
   providerOptions
