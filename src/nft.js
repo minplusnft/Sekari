@@ -40,7 +40,7 @@ const providerOptions = {
   },
 };
 const web3Modal = new Web3Modal({
-  network: "polygon",
+  network: "rinkeby",
   theme: "dark",
   cacheProvider: true,
   providerOptions
